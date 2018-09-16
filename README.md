@@ -8,6 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Quote is a web based application that displays quotes from various people around the world.Users are able to interact more with the web application and get to find out more about where the quote came from.Users can also use quote to write their own quotes and post them.The quote written by the users will display their name plus the quote.If a user happens to like the quote he/she can Upvote the quote and if they happen to dislike the quote then they can Downvote the quote.
 
+# Link to deployed website
+https://abdirahman-mahat.github.io/quote-app/
+
 # Installation Requirements
 
 A web browser is required to access the application since it is web based .
