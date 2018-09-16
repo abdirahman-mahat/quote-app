@@ -1,0 +1,27 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2 >Add a quote</h2>
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+
+      <h2 >sample quotes</h2>
+      <hr>
+
+      <div class="jumbotron" >
+
+            <div *ngFor='let quote of quotes;let i = index'>
+              <h6 id="{{i}}">{{quote.name}}</h6>
+
+              <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+              <br>
+              <br>
+
+            </div>
+
+      </div>
+    </div>
+
+    </div>
+
+</div>
