@@ -8,7 +8,7 @@ import {Quotes} from '../quotes';
 })export class QuotesComponent implements OnInit {
   quotes = [
       new Quotes(1,'Benjamin Disraeli','The secret of success is constancy to purpose.', 'John' ,new Date(2018,9,1) ),
-      new Quotes(2,'Henry David Thoreau','We were born to succeed, not to fail.', 'Mark' , new Date(2018,8,1) ),
+      new Quotes(2,'Henry David Thoreau','We were born to succeed, not to fail.','Mark' , new Date(2018,8,1) ),
 
 
   ]
