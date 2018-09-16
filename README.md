@@ -1,4 +1,4 @@
-# quote-ap
+# quote-app
 # by Abdirahman mahat
 # Quote is a web application that displays quotes from various people.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
