@@ -2,11 +2,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
   background-image: url(../../quotes/images/pp.jpg);
-  background-repeat: no-repeat;
-  height: 1500px;
-  width: 1800px;
+  background-repeat: repeat;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   color: white;
 }
